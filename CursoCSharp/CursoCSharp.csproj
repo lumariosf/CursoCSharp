@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="CentralDeExercicios.cs" />
     <Compile Include="ClassesEMetodos\AtributosEstaticos.cs" />
+    <Compile Include="ClassesEMetodos\Propriedades.cs" />
     <Compile Include="ClassesEMetodos\Construtores.cs" />
     <Compile Include="ClassesEMetodos\DesafioAtributo.cs" />
     <Compile Include="ClassesEMetodos\GetSet.cs" />
