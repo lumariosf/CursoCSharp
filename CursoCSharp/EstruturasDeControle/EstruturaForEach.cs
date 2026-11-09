@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CursoCSharp.EstruturasDeControle {
+    internal class EstruturaForEach {
+        public static void Executar() {
+            var palavra = "Opa!";
+
+            foreach (var letra in palavra) {
+                Console.WriteLine(letra);
+            }
+            // igual ao for auto do c++
+
+            var alunos = new string[] { "Ana", "Bia", "Carlos" };
+            foreach (var aluno in alunos) {
+                Console.WriteLine(aluno);
+            }
+        }
+    }
+}

@@ -48,6 +48,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CentralDeExercicios.cs" />
+    <Compile Include="ClassesEMetodos\AtributosEstaticos.cs" />
+    <Compile Include="ClassesEMetodos\Construtores.cs" />
+    <Compile Include="ClassesEMetodos\DesafioAtributo.cs" />
+    <Compile Include="ClassesEMetodos\GetSet.cs" />
+    <Compile Include="ClassesEMetodos\Membros.cs" />
+    <Compile Include="ClassesEMetodos\MetodosComRetorno.cs" />
+    <Compile Include="ClassesEMetodos\MetodosEstaticos.cs" />
+    <Compile Include="ClassesEMetodos\ParametrosNomeados.cs" />
+    <Compile Include="ClassesEMetodos\ParametrosVariaveis.cs" />
+    <Compile Include="ClassesEMetodos\Pessoa.cs" />
+    <Compile Include="EstruturasDeControle\EstrutruraDoWhile.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaForEach.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaIF.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaSwitch.cs" />
     <Compile Include="Fundamentos\Resumo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
