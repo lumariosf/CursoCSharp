@@ -78,6 +78,8 @@
     <Compile Include="EstruturasDeControle\EstruturaSwitch.cs" />
     <Compile Include="Exercicios\Ex1.cs" />
     <Compile Include="Exercicios\Ex2.cs" />
+    <Compile Include="Exercicios\Ex3.cs" />
+    <Compile Include="Exercicios\Ex4.cs" />
     <Compile Include="Fundamentos\Resumo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

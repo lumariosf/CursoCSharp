@@ -36,9 +36,6 @@ namespace CursoCSharp {
                 {"Parametros Por Referência - Classes e Métodos", ParametrosRef.Executar}, 
                 {"Parametros Por Valor - Classes e Métodos", ParametrosVal.Executar},
 
-                {"Exercicio 1 - Exercícios", Ex1.Executar},
-                {"Exercicio 2 - Exercícios", Ex2.Executar},
-
                 {"Array - Coleções", Colecoes.Array.Executar}, 
                 {"List - Coleções", Colecoes.List.Executar},  
                 {"ArrayList - Coleções", Colecoes.ExArrayList.Executar},
@@ -48,7 +45,10 @@ namespace CursoCSharp {
                 {"Stack - Coleções", Colecoes.Stack.Executar},
                 {"Dictionary - Coleções", Colecoes.Dictionary.Executar},
 
-                
+                {"Exercicio 1 - Exercícios", Ex1.Executar},
+                {"Exercicio 2 - Exercícios", Ex2.Executar},
+                {"Exercicio 3 - Exercícios", Ex3.Executar},
+
             });
 
             central.SelecionarEExecutar();

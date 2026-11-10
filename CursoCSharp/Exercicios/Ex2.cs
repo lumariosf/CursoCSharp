@@ -15,7 +15,7 @@ namespace CursoCSharp.Exercicios {
         public Pessoa(string nome, int idade) {
             this.nome = nome; this.idade = idade;
 
-            if (idade >= 18) this.maior_de_idade = true;
+            if (idade > 18) this.maior_de_idade = true;
             else this.maior_de_idade = false; 
         }
 
