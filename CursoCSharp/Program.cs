@@ -6,6 +6,7 @@ using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes; 
 using CursoCSharp.Exercicios; 
+using CursoCSharp.OrientacaoObj; 
 
 
 namespace CursoCSharp {
@@ -48,6 +49,14 @@ namespace CursoCSharp {
                 {"Exercicio 1 - Exercícios", Ex1.Executar},
                 {"Exercicio 2 - Exercícios", Ex2.Executar},
                 {"Exercicio 3 - Exercícios", Ex3.Executar},
+                
+                {"Herança - Orientação a Objetos", Heranca.Executar},
+                {"Construtor This - Orientação a Objetos", ConstrutorThis.Executar},
+                {"Encapsulamento - Orientação a Objetos", OrientacaoObj.Encapsulamento.Executar},
+                {"Polimorfismo - Orientação a Objetos", Polimorfismo.Executar},
+                {"Classe Abstrata - Orientação a Objetos", Abstrata.Executar},
+                {"Interface - Orientação a Objetos", Interface.Executar},
+                {"Sealed - Orientação a Objetos", Sealed.Executar},
 
             });
 

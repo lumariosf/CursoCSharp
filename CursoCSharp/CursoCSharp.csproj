@@ -81,6 +81,13 @@
     <Compile Include="Exercicios\Ex3.cs" />
     <Compile Include="Exercicios\Ex4.cs" />
     <Compile Include="Fundamentos\Resumo.cs" />
+    <Compile Include="OrientacaoObj\Abstrata.cs" />
+    <Compile Include="OrientacaoObj\ConstrutorThis.cs" />
+    <Compile Include="OrientacaoObj\Encapsulamento.cs" />
+    <Compile Include="OrientacaoObj\Heranca.cs" />
+    <Compile Include="OrientacaoObj\Interface.cs" />
+    <Compile Include="OrientacaoObj\Polimorfismo.cs" />
+    <Compile Include="OrientacaoObj\Sealed.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ClassesEMetodos\Readonly.cs" />
@@ -88,6 +95,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Encapsulamento\Encapsulamento.csproj">
+      <Project>{187dea11-2915-43d9-8bc5-b0f0c21cff7f}</Project>
+      <Name>Encapsulamento</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
