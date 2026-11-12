@@ -81,6 +81,11 @@
     <Compile Include="Exercicios\Ex3.cs" />
     <Compile Include="Exercicios\Ex4.cs" />
     <Compile Include="Fundamentos\Resumo.cs" />
+    <Compile Include="MetodosEFuncoes\DelegateComoParametro.cs" />
+    <Compile Include="MetodosEFuncoes\DelegateFuncAnonima.cs" />
+    <Compile Include="MetodosEFuncoes\Lambda.cs" />
+    <Compile Include="MetodosEFuncoes\LambdaDelegate.cs" />
+    <Compile Include="MetodosEFuncoes\UsandoDelegate.cs" />
     <Compile Include="OrientacaoObj\Abstrata.cs" />
     <Compile Include="OrientacaoObj\ConstrutorThis.cs" />
     <Compile Include="OrientacaoObj\Encapsulamento.cs" />
@@ -101,5 +106,6 @@
       <Name>Encapsulamento</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
