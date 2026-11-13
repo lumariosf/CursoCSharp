@@ -76,6 +76,8 @@
     <Compile Include="EstruturasDeControle\EstruturaForEach.cs" />
     <Compile Include="EstruturasDeControle\EstruturaIF.cs" />
     <Compile Include="EstruturasDeControle\EstruturaSwitch.cs" />
+    <Compile Include="Excecoes\Personalisada.cs" />
+    <Compile Include="Excecoes\TratamentoDeErro.cs" />
     <Compile Include="Exercicios\Ex1.cs" />
     <Compile Include="Exercicios\Ex2.cs" />
     <Compile Include="Exercicios\Ex3.cs" />
@@ -85,6 +87,7 @@
     <Compile Include="MetodosEFuncoes\DelegateFuncAnonima.cs" />
     <Compile Include="MetodosEFuncoes\Lambda.cs" />
     <Compile Include="MetodosEFuncoes\LambdaDelegate.cs" />
+    <Compile Include="MetodosEFuncoes\MetodosDeExtensao.cs" />
     <Compile Include="MetodosEFuncoes\UsandoDelegate.cs" />
     <Compile Include="OrientacaoObj\Abstrata.cs" />
     <Compile Include="OrientacaoObj\ConstrutorThis.cs" />

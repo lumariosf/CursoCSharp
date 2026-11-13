@@ -8,6 +8,7 @@ using CursoCSharp.Colecoes;
 using CursoCSharp.Exercicios; 
 using CursoCSharp.OrientacaoObj; 
 using CursoCSharp.MetodosEFuncoes; 
+using CursoCSharp.Excecoes; 
 
 
 namespace CursoCSharp {
@@ -64,7 +65,10 @@ namespace CursoCSharp {
                 {"Usando Delegate - Metodos e Funcoes", UsandoDelegate.Executar},
                 {"Delegate Funçoes Anônimas - Metodos e Funcoes", DelegateFuncAnonima.Executar},
                 {"Delegate Como Parametro - Metodos e Funcoes", DelegateComoParametro.Executar},
-
+                {"Metodos de Extensão - Metodos e Funcoes", MetodosDeExtensao.Executar},
+                
+                {"Extensão e Tratamento de Erro - Exceções", TratamentoDeErro.Executar},
+                {"Extensões Personalizadas - Exceções", Personalisada.Executar},
             });
 
             central.SelecionarEExecutar();

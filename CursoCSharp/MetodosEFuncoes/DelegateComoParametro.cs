@@ -16,11 +16,15 @@ namespace CursoCSharp.MetodosEFuncoes {
         // parece o uso em haskell
         // tem inferência de tipos como no map/fold?
         public static string Calculadora(Operacao op, int x, int y) {
-            var resultado = op(x, y); 
+            var resultado = op(x, y);
+            return "Resultado " + resultado; 
         }
 
         public static void Executar() {
+            Operacao subtracao = (int x, int y) => x - y;
+            Console.WriteLine(Calculadora(subtracao, 3, 2));
 
+            Console.WriteLine(Calculadora(Soma, 3, 2));
         }
     }
 }
